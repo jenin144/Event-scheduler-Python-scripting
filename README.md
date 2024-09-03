@@ -48,27 +48,37 @@ Deleting events: -delete
 
 ```
 **Usage**
+
+***Run script using ./run_script.sh***
+
 ***Adding an Event***
 ```
-./run.sh -add -name "Meeting" -category "Work" -start "2024-09-10 09:00" -duration 60
+./run_script.sh -add -name "My Birthday " -category "Personal" -start "2024-04-14 09:00" -duration 60
 ```
-Viewing Events
-bash
-Copy code
-python cli.py -list
-Filtering by Category
-bash
-Copy code
-python cli.py -filter -category "Work"
-Generating a Report
-bash
-Copy code
-python cli.py -report
-Updating an Event
-bash
-Copy code
-python cli.py -update -keys "2024-09-10 09:00" -duration +30
-Deleting an Event
-bash
-Copy code
-python cli.py -delete -key "2024-09-10 09:00"
+***Viewing Events***
+```
+./run_script.sh -list
+
+```
+
+***Filtering by Category***
+```
+./run_script.sh -filter -category "Personal"
+
+```
+***Generating a Report***
+```
+./run_script.sh -report
+```
+
+***Updating an Event***
+```
+./run_script.sh -update -keys "2024-4-14 09:00" -duration +30
+./run_script.sh -update -keys "2024-09-10 09:00" "2024-04-14 09:00" -duration  -10  -category "Education"
+```
+
+***Deleting an Event***
+```
+./run_script.sh  -delete -key "2024-04-14 09:00"
+
+```
