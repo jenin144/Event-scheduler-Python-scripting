@@ -7,9 +7,10 @@ Develop a command-line tool that allows users to schedule, categorize, and analy
 ``
 
 
-Key Features
+**Key Features**
+
+***1. Event Management***
 ```
-**1. Event Management**
 Create Events: Users can add new events with details including name, category, start time, and duration.
 Update Events: Modify existing events, including changing the start time or duration.
 Delete Events: Remove events from the schedule.
@@ -17,19 +18,26 @@ Event Storage: Events are stored using a dictionary with tuples for details, key
 
 ```
 
-2. Conflict Detection
+***2. Conflict Detection***
+```
 Overlap Detection: The tool checks for overlapping events within the same date.
 Conflict Resolution: Provides suggestions to resolve conflicts, such as adjusting start times or durations.
-3. Event Categorization
+```
+***3. Event Categorization***
+```
 Category Assignment: Users can assign categories (e.g., Work, Exercise, Leisure) to events.
 Category Filtering: Filter and view events based on their assigned categories.
-4. Event Analytics
+```
+***5. Event Analytics***
+```
 Reports Generation: Generate reports on:
 Total time spent per category.
 Busiest days with the most events.
 Trends over time, showing category-wise duration for each day.
 Efficient Data Handling: Uses generators to iterate through events and produce reports.
-5. Command-Line Interface (CLI)
+```
+***7. Command-Line Interface (CLI)***
+```
 User-Friendly CLI: Supports various commands for interacting with the scheduler, including:
 Adding events: -add
 Viewing schedules: -list
@@ -37,11 +45,13 @@ Filtering by category: -filter
 Generating reports: -report
 Updating events: -update
 Deleting events: -delete
-Usage
-Adding an Event
-bash
-Copy code
-python cli.py -add -name "Meeting" -category "Work" -start "2024-09-10 09:00" -duration 60
+
+```
+**Usage**
+***Adding an Event***
+```
+./run.sh -add -name "Meeting" -category "Work" -start "2024-09-10 09:00" -duration 60
+```
 Viewing Events
 bash
 Copy code
