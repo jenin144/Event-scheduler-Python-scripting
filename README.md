@@ -48,7 +48,8 @@ Deleting events: -delete
 
 ```
 **Usage**
-**Run script using*** ``` ./run_script.sh***```
+
+**Run script using**  ``` ./run_script.sh***```
 ***Adding an Event***
 ```
 ./run_script.sh -add -name "My Birthday " -category "Personal" -start "2024-04-14 09:00" -duration 60
