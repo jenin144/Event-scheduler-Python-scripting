@@ -81,6 +81,6 @@ Deleting events: -delete
 
 ***Deleting an Event***
 ```
-./run_script.sh  -delete -key "2024-04-14 09:00"
+./run_script.sh  -delete -start "2024-04-14 09:00"
 
 ```
