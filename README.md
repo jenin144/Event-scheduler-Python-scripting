@@ -2,7 +2,6 @@
 
 **Run script using**  ``` ./run_script.sh```  
 **Run unit test**  ```pytest ```   
-***you can directly unzip ....***
 
 
 **Project Overview:**
