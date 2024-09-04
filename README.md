@@ -17,8 +17,8 @@ Develop a command-line tool that allows users to schedule, categorize, and analy
 ```
 User-Friendly CLI: Supports various commands for interacting with the scheduler, including:
 Adding events: -add
-Viewing schedules: -list
-Filtering by category: -filter
+Viewing scheduled events: -list
+Filtering events by category: -filter
 Generating reports: -report
 Updating events: -update
 Deleting events: -delete
