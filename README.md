@@ -28,7 +28,7 @@ User-Friendly CLI: Supports various commands for interacting with the scheduler,
 ***2. Event Management***
 ```
 Create Events: Users can add new events with details including name, category, start time, and duration.
-Update Events: Modify existing events, including changing the start time or duration.
+Update Events: Modify existing events, including changing the start time or duration ...etc .
 Delete Events: Remove events from the schedule.
 Event Storage: Events are stored using a dictionary with tuples for details, keyed by the start time of the event.
 
