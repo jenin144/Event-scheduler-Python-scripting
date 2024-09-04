@@ -1,7 +1,7 @@
 # Event-scheduler-using-Python-scripting
 
 **Run script using**  ``` ./run_script.sh```  
-**Run unit test using **  ```pytest ```   
+**Run unit test using**  ```pytest ```   
 
 
 **Project Overview:**
