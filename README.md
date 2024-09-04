@@ -13,34 +13,7 @@ Develop a command-line tool that allows users to schedule, categorize, and analy
 
 **Key Features**
 
-***1. Event Management***
-```
-Create Events: Users can add new events with details including name, category, start time, and duration.
-Update Events: Modify existing events, including changing the start time or duration.
-Delete Events: Remove events from the schedule.
-Event Storage: Events are stored using a dictionary with tuples for details, keyed by the start time of the event.
-
-```
-
-***2. Conflict Detection***
-```
-Overlap Detection: The tool checks for overlapping events within the same date.
-Conflict Resolution: Provides suggestions to resolve conflicts, such as adjusting start times or durations.
-```
-***3. Event Categorization***
-```
-Category Assignment: Users can assign categories (e.g., Work, Exercise, Leisure) to events.
-Category Filtering: Filter and view events based on their assigned categories.
-```
-***4. Event Analytics***
-```
-Reports Generation: Generate reports on:
-Total time spent per category.
-Busiest days with the most events.
-Trends over time, showing category-wise duration for each day.
-Efficient Data Handling: Uses generators to iterate through events and produce reports.
-```
-***5. Command-Line Interface (CLI)***
+***1. Command-Line Interface (CLI)***
 ```
 User-Friendly CLI: Supports various commands for interacting with the scheduler, including:
 Adding events: -add
@@ -52,14 +25,40 @@ Deleting events: -delete
 
 ```
 
+***2. Event Management***
+```
+Create Events: Users can add new events with details including name, category, start time, and duration.
+Update Events: Modify existing events, including changing the start time or duration.
+Delete Events: Remove events from the schedule.
+Event Storage: Events are stored using a dictionary with tuples for details, keyed by the start time of the event.
+
+```
+
+***3. Conflict Detection***
+```
+Overlap Detection: The tool checks for overlapping events within the same date.
+Conflict Resolution: Provides suggestions to resolve conflicts, such as adjusting start times or durations.
+```
+***4. Event Categorization***
+```
+Category Assignment: Users can assign categories (e.g., Work, Exercise, Leisure) to events.
+Category Filtering: Filter and view events based on their assigned categories.
+```
+***5. Event Analytics***
+```
+Reports Generation: Generate reports on:
+Total time spent per category.
+Busiest days with the most events.
+Trends over time, showing category-wise duration for each day.
+Efficient Data Handling: Uses generators to iterate through events and produce reports.
+```
+
 
 ***6.Unit Testing***
 ```
 Automated tests verify core functionalities including event management, conflict detection, and filtering.
 
 ```
-
-
 
 
 **Usage**
