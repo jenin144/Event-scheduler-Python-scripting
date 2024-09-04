@@ -1,7 +1,7 @@
 # Event-scheduler-using-Python-scripting
 
 **Run script using**  ``` ./run_script.sh```  
-**Run unit test using**  ```pytest ```   
+**Run unit testing using**  ```pytest ```   
 
 
 **Project Overview:**
@@ -32,7 +32,7 @@ Conflict Resolution: Provides suggestions to resolve conflicts, such as adjustin
 Category Assignment: Users can assign categories (e.g., Work, Exercise, Leisure) to events.
 Category Filtering: Filter and view events based on their assigned categories.
 ```
-***5. Event Analytics***
+***4. Event Analytics***
 ```
 Reports Generation: Generate reports on:
 Total time spent per category.
@@ -40,7 +40,7 @@ Busiest days with the most events.
 Trends over time, showing category-wise duration for each day.
 Efficient Data Handling: Uses generators to iterate through events and produce reports.
 ```
-***7. Command-Line Interface (CLI)***
+***5. Command-Line Interface (CLI)***
 ```
 User-Friendly CLI: Supports various commands for interacting with the scheduler, including:
 Adding events: -add
@@ -51,6 +51,17 @@ Updating events: -update
 Deleting events: -delete
 
 ```
+
+
+***6.Unit Testing***
+```
+Automated tests verify core functionalities including event management, conflict detection, and filtering.
+
+```
+
+
+
+
 **Usage**
 
 
